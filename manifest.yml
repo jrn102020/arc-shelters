@@ -1,0 +1,10 @@
+---
+applications:
+- disk_quota: 1024M
+  domain: mybluemix.net
+  command: npm run start
+  name: Julia-Arc-Shelter
+  memory: 512M
+  host: Julia-Arc-Shelter
+  path: .
+  instances: 1
